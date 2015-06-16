@@ -1,0 +1,1857 @@
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-15 22:13:47 -0600
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.0) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.0) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__2265040393573208191__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (28.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-15 22:15:01 -0600
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.0) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.0) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__2120356643251788705__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (27.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-15 22:15:08 -0600
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.0) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.0) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__2120356643251788705__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-15 22:21:28 -0600
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.0) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.0) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__4356173586417614076__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (36.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-15 23:32:16 -0600
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.0) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.0) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__2699555013547178803__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (33.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-15 23:32:18 -0600
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.0) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.0) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__2699555013547178803__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.9ms)
+  [1m[36m (2.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (1.3ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreatePosts (20131109171753)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "posts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "url" varchar(255), "description" text, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131109171753"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+Migrating to CreateUsers (20131109174636)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131109174636"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Migrating to AddUserIdToPosts (20131109184603)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "posts" ADD "user_id" integer[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131109184603"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Migrating to CreateComments (20131109192322)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "body" text, "user_id" integer, "post_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131109192322"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Migrating to CreateCategories (20131109234732)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "categories" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131109234732"]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+Migrating to CreatePostCategories (20131110020319)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.7ms)[0m  [1mCREATE TABLE "post_categories" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "post_id" integer, "category_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131110020319"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+Migrating to AddPasswordDigestToUsers (20131122201143)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mALTER TABLE "users" ADD "password_digest" varchar(255)[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131122201143"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+Migrating to CreateVotes (20131125224847)
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "votes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "vote" boolean, "voteable_id" integer, "voteable_type" varchar(255), "user_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131125224847"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Migrating to AddSlugToPosts (20131215063413)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (1.9ms)[0m  [1mALTER TABLE "posts" ADD "slug" varchar(255)[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131215063413"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Migrating to AddSlugToUsers (20131216051552)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "users" ADD "slug" varchar(255)[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131216051552"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+Migrating to AddSlugToCategories (20131217073129)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mALTER TABLE "categories" ADD "slug" varchar(255)[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131217073129"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+Migrating to AddRoleToUsers (20131218063259)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "users" ADD "role" varchar(255)[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131218063259"]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+Migrating to AddTimeZoneToUsers (20131219050543)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "users" ADD "time_zone" varchar(255)[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131219050543"]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-15 23:32:49 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered shared/_content_title.html.erb (0.8ms)
+  Rendered posts/index.html.erb within layouts/application (8.6ms)
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navigation.html.erb (15.6ms)
+  Rendered layouts/_messages.html.erb (44.8ms)
+Completed 200 OK in 3348ms (Views: 3296.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-06-15 23:33:12 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered shared/_content_title.html.erb (0.6ms)
+  Rendered posts/index.html.erb within layouts/application (4.0ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navigation.html.erb (2.5ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 26ms (Views: 21.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-15 23:33:15 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered shared/_content_title.html.erb (0.1ms)
+  Rendered posts/index.html.erb within layouts/application (1.6ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navigation.html.erb (1.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 18.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-06-15 23:33:18 -0600
+Processing by SessionsController#new as HTML
+  Rendered shared/_content_title.html.erb (0.1ms)
+  Rendered sessions/new.html.erb within layouts/application (4.0ms)
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_navigation.html.erb (3.1ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 41ms (Views: 38.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-06-15 23:41:22 -0600
+Processing by SessionsController#new as HTML
+  Rendered shared/_content_title.html.erb (0.8ms)
+  Rendered sessions/new.html.erb within layouts/application (16.6ms)
+  [1m[36mCategory Load (0.7ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navigation.html.erb (9.7ms)
+  Rendered layouts/_messages.html.erb (0.5ms)
+Completed 200 OK in 54ms (Views: 50.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-15 23:41:26 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered shared/_content_title.html.erb (1.5ms)
+  Rendered posts/index.html.erb within layouts/application (6.3ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navigation.html.erb (11.2ms)
+  Rendered layouts/_messages.html.erb (1.4ms)
+Completed 200 OK in 84ms (Views: 72.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/register" for 127.0.0.1 at 2015-06-15 23:41:33 -0600
+Processing by UsersController#new as HTML
+  Rendered shared/_content_title.html.erb (0.3ms)
+  Rendered shared/_errors.html.erb (6.2ms)
+  Rendered users/_form.html.erb (617.8ms)
+  Rendered users/new.html.erb within layouts/application (622.5ms)
+  [1m[35mCategory Load (0.4ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_navigation.html.erb (2.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 718ms (Views: 639.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-06-15 23:41:38 -0600
+Processing by SessionsController#new as HTML
+  Rendered shared/_content_title.html.erb (0.1ms)
+  Rendered sessions/new.html.erb within layouts/application (2.1ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-15 23:48:33 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (8.4ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered shared/_content_title.html.erb (0.5ms)
+  Rendered posts/index.html.erb within layouts/application (5.1ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navigation.html.erb (4.5ms)
+  Rendered layouts/_messages.html.erb (0.5ms)
+Completed 200 OK in 69ms (Views: 42.6ms | ActiveRecord: 8.8ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-06-15 23:48:37 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered shared/_content_title.html.erb (0.1ms)
+  Rendered posts/index.html.erb within layouts/application (1.6ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 26ms (Views: 24.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/register" for 127.0.0.1 at 2015-06-15 23:48:40 -0600
+Processing by UsersController#new as HTML
+  Rendered shared/_content_title.html.erb (0.1ms)
+  Rendered shared/_errors.html.erb (0.3ms)
+  Rendered users/_form.html.erb (31.9ms)
+  Rendered users/new.html.erb within layouts/application (35.1ms)
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_navigation.html.erb (1.8ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 66ms (Views: 55.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2015-06-15 23:49:18 -0600
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kxz3bpyBHuZ8jfC6JbwPVMShj30QqGSy0G3Kg58O4Ic=", "user"=>{"username"=>"rob", "password"=>"[FILTERED]", "time_zone"=>"Mountain Time (US & Canada)"}, "commit"=>"Register"}
+  [1m[36m (1.7ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (1.9ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."username" = 'rob' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (83.4ms)[0m  [1mINSERT INTO "users" ("created_at", "password_digest", "slug", "time_zone", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Tue, 16 Jun 2015 01:49:18 EDT -04:00], ["password_digest", "$2a$10$e9yXy.B0Ehfh5vGz1n3.peEh67n0ZAWQhOGxAOFoHuDWYeML/YP2W"], ["slug", "rob"], ["time_zone", "Mountain Time (US & Canada)"], ["updated_at", Tue, 16 Jun 2015 01:49:18 EDT -04:00], ["username", "rob"]]
+  [1m[35m (1.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 382ms (ActiveRecord: 88.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-15 23:49:18 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered shared/_content_title.html.erb (0.3ms)
+  Rendered posts/index.html.erb within layouts/application (2.4ms)
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_navigation.html.erb (5.0ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+Completed 200 OK in 54ms (Views: 50.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2015-06-16 00:02:45 -0600
+Processing by PostsController#new as HTML
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered shared/_content_title.html.erb (0.3ms)
+  Rendered shared/_errors.html.erb (0.3ms)
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered posts/_form.html.erb (78.9ms)
+  Rendered posts/new.html.erb within layouts/application (87.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_navigation.html.erb (3.7ms)
+  Rendered layouts/_messages.html.erb (0.8ms)
+Completed 200 OK in 193ms (Views: 108.5ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2015-06-16 00:02:48 -0600
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-16 00:02:48 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered shared/_content_title.html.erb (0.1ms)
+  Rendered posts/index.html.erb within layouts/application (1.0ms)
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_navigation.html.erb (1.9ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/register" for 127.0.0.1 at 2015-06-16 00:02:50 -0600
+Processing by UsersController#new as HTML
+  Rendered shared/_content_title.html.erb (0.4ms)
+  Rendered shared/_errors.html.erb (0.1ms)
+  Rendered users/_form.html.erb (13.1ms)
+  Rendered users/new.html.erb within layouts/application (16.8ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navigation.html.erb (4.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 54ms (Views: 51.3ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2015-06-16 00:03:18 -0600
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kxz3bpyBHuZ8jfC6JbwPVMShj30QqGSy0G3Kg58O4Ic=", "user"=>{"username"=>"rickcid", "password"=>"[FILTERED]", "time_zone"=>"Eastern Time (US & Canada)"}, "commit"=>"Register"}
+  [1m[35m (0.8ms)[0m  begin transaction
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'rickcid' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (3.8ms)[0m  INSERT INTO "users" ("created_at", "password_digest", "slug", "time_zone", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Tue, 16 Jun 2015 02:03:18 EDT -04:00], ["password_digest", "$2a$10$XJTzh4mG02eiaKS3aWnsI.dRzPWgTSOp0jW7Ed/eOn938nvCxm1Ja"], ["slug", "rickcid"], ["time_zone", "Eastern Time (US & Canada)"], ["updated_at", Tue, 16 Jun 2015 02:03:18 EDT -04:00], ["username", "rickcid"]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 234ms (ActiveRecord: 6.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-16 00:03:18 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered shared/_content_title.html.erb (0.4ms)
+  Rendered posts/index.html.erb within layouts/application (4.0ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (4.3ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+Completed 200 OK in 38ms (Views: 35.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users/rickcid" for 127.0.0.1 at 2015-06-16 00:03:24 -0600
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"rickcid"}
+  [1m[36mUser Load (1.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."slug" = 'rickcid' LIMIT 1[0m
+  Rendered shared/_content_title.html.erb (0.6ms)
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "posts" WHERE "posts"."user_id" = ?  [["user_id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."user_id" = ?[0m  [["user_id", 2]]
+  Rendered users/show.html.erb within layouts/application (69.2ms)
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (4.1ms)
+  Rendered layouts/_messages.html.erb (0.5ms)
+Completed 200 OK in 139ms (Views: 95.9ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2015-06-16 00:03:33 -0600
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-16 00:03:34 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered shared/_content_title.html.erb (0.1ms)
+  Rendered posts/index.html.erb within layouts/application (1.4ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navigation.html.erb (1.8ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 17ms (Views: 15.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/register" for 127.0.0.1 at 2015-06-16 00:03:47 -0600
+Processing by UsersController#new as HTML
+  Rendered shared/_content_title.html.erb (0.5ms)
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered users/_form.html.erb (30.8ms)
+  Rendered users/new.html.erb within layouts/application (41.1ms)
+  [1m[35mCategory Load (10.5ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_navigation.html.erb (15.3ms)
+  Rendered layouts/_messages.html.erb (0.6ms)
+Completed 200 OK in 99ms (Views: 72.2ms | ActiveRecord: 10.5ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2015-06-16 00:04:01 -0600
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kxz3bpyBHuZ8jfC6JbwPVMShj30QqGSy0G3Kg58O4Ic=", "user"=>{"username"=>"rickcid", "password"=>"[FILTERED]", "time_zone"=>"Mountain Time (US & Canada)"}, "commit"=>"Register"}
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."username" = 'rickcid' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  Rendered shared/_content_title.html.erb (0.2ms)
+  Rendered shared/_errors.html.erb (2.2ms)
+  Rendered users/_form.html.erb (17.5ms)
+  Rendered users/new.html.erb within layouts/application (25.3ms)
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_navigation.html.erb (2.8ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 176ms (Views: 43.8ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2015-06-16 00:05:00 -0600
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kxz3bpyBHuZ8jfC6JbwPVMShj30QqGSy0G3Kg58O4Ic=", "user"=>{"username"=>"rickcid", "password"=>"[FILTERED]", "time_zone"=>"Mountain Time (US & Canada)"}, "commit"=>"Register"}
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.5ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."username" = 'rickcid' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered shared/_content_title.html.erb (4.8ms)
+  Rendered shared/_errors.html.erb (3.2ms)
+  Rendered users/_form.html.erb (231.4ms)
+  Rendered users/new.html.erb within layouts/application (257.3ms)
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_navigation.html.erb (10.6ms)
+  Rendered layouts/_messages.html.erb (1.5ms)
+Completed 200 OK in 533ms (Views: 386.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-06-16 00:05:03 -0600
+Processing by SessionsController#new as HTML
+  Rendered shared/_content_title.html.erb (0.1ms)
+  Rendered sessions/new.html.erb within layouts/application (1.9ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2015-06-16 00:05:18 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kxz3bpyBHuZ8jfC6JbwPVMShj30QqGSy0G3Kg58O4Ic=", "username"=>"rickcid", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'rickcid' ORDER BY "users"."id" ASC LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 113ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-16 00:05:18 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered shared/_content_title.html.erb (0.1ms)
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (3.8ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-16 00:05:44 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (2.0ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered shared/_content_title.html.erb (0.8ms)
+  Rendered posts/index.html.erb within layouts/application (4.7ms)
+  [1m[36mCategory Load (0.6ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  [1m[35mUser Load (1.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (12.8ms)
+  Rendered layouts/_messages.html.erb (0.7ms)
+Completed 200 OK in 64ms (Views: 44.9ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/categories/new" for 127.0.0.1 at 2015-06-16 00:05:49 -0600
+Processing by CategoriesController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_content_title.html.erb (0.2ms)
+  Rendered shared/_errors.html.erb (0.2ms)
+  Rendered categories/new.html.erb within layouts/application (44.3ms)
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_navigation.html.erb (2.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 90ms (Views: 61.3ms | ActiveRecord: 2.1ms)
+
+
+Started POST "/categories" for 127.0.0.1 at 2015-06-16 00:06:04 -0600
+Processing by CategoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kxz3bpyBHuZ8jfC6JbwPVMShj30QqGSy0G3Kg58O4Ic=", "category"=>{"name"=>"Week 1"}, "commit"=>"¡Crea la categoría!"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.6ms)[0m  begin transaction
+  [1m[36mSQL (4.1ms)[0m  [1mINSERT INTO "categories" ("created_at", "name", "slug", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Tue, 16 Jun 2015 02:06:04 EDT -04:00], ["name", "Week 1"], ["slug", "week-1"], ["updated_at", Tue, 16 Jun 2015 02:06:04 EDT -04:00]]
+  [1m[35m (1.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 21ms (ActiveRecord: 6.3ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-06-16 00:06:04 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered shared/_content_title.html.erb (0.2ms)
+  Rendered posts/index.html.erb within layouts/application (2.2ms)
+  [1m[35mCategory Load (0.6ms)[0m  SELECT "categories".* FROM "categories"
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (12.5ms)
+  Rendered layouts/_messages.html.erb (0.8ms)
+Completed 200 OK in 44ms (Views: 41.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/categories/new" for 127.0.0.1 at 2015-06-16 00:06:09 -0600
+Processing by CategoriesController#new as HTML
+  [1m[35mUser Load (1.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered shared/_content_title.html.erb (0.6ms)
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered categories/new.html.erb within layouts/application (12.2ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navigation.html.erb (2.7ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 286ms (Views: 233.6ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/categories" for 127.0.0.1 at 2015-06-16 00:06:15 -0600
+Processing by CategoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kxz3bpyBHuZ8jfC6JbwPVMShj30QqGSy0G3Kg58O4Ic=", "category"=>{"name"=>"Week 2"}, "commit"=>"¡Crea la categoría!"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "categories" ("created_at", "name", "slug", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Tue, 16 Jun 2015 02:06:15 EDT -04:00], ["name", "Week 2"], ["slug", "week-2"], ["updated_at", Tue, 16 Jun 2015 02:06:15 EDT -04:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 8ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-06-16 00:06:15 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered shared/_content_title.html.erb (0.0ms)
+  Rendered posts/index.html.erb within layouts/application (0.7ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (4.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/categories/new" for 127.0.0.1 at 2015-06-16 00:06:19 -0600
+Processing by CategoriesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_content_title.html.erb (0.1ms)
+  Rendered shared/_errors.html.erb (0.1ms)
+  Rendered categories/new.html.erb within layouts/application (6.3ms)
+  [1m[35mCategory Load (10.6ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_navigation.html.erb (25.6ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 60ms (Views: 47.7ms | ActiveRecord: 10.8ms)
+
+
+Started POST "/categories" for 127.0.0.1 at 2015-06-16 00:06:26 -0600
+Processing by CategoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kxz3bpyBHuZ8jfC6JbwPVMShj30QqGSy0G3Kg58O4Ic=", "category"=>{"name"=>"Week 3"}, "commit"=>"¡Crea la categoría!"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "categories" ("created_at", "name", "slug", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Tue, 16 Jun 2015 02:06:26 EDT -04:00], ["name", "Week 3"], ["slug", "week-3"], ["updated_at", Tue, 16 Jun 2015 02:06:26 EDT -04:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 6ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-06-16 00:06:26 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered shared/_content_title.html.erb (0.1ms)
+  Rendered posts/index.html.erb within layouts/application (0.8ms)
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (2.7ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 15ms (Views: 12.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/categories/new" for 127.0.0.1 at 2015-06-16 00:06:29 -0600
+Processing by CategoriesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered shared/_content_title.html.erb (0.1ms)
+  Rendered shared/_errors.html.erb (0.1ms)
+  Rendered categories/new.html.erb within layouts/application (5.9ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navigation.html.erb (3.2ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 31ms (Views: 28.5ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/categories" for 127.0.0.1 at 2015-06-16 00:06:34 -0600
+Processing by CategoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kxz3bpyBHuZ8jfC6JbwPVMShj30QqGSy0G3Kg58O4Ic=", "category"=>{"name"=>"Week 4"}, "commit"=>"¡Crea la categoría!"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "categories" ("created_at", "name", "slug", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Tue, 16 Jun 2015 02:06:34 EDT -04:00], ["name", "Week 4"], ["slug", "week-4"], ["updated_at", Tue, 16 Jun 2015 02:06:34 EDT -04:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 6ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-06-16 00:06:34 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered shared/_content_title.html.erb (0.0ms)
+  Rendered posts/index.html.erb within layouts/application (0.7ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (3.9ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 19ms (Views: 16.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/categories/new" for 127.0.0.1 at 2015-06-16 00:06:37 -0600
+Processing by CategoriesController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_content_title.html.erb (0.1ms)
+  Rendered shared/_errors.html.erb (0.1ms)
+  Rendered categories/new.html.erb within layouts/application (9.7ms)
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 137ms (Views: 132.5ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/categories" for 127.0.0.1 at 2015-06-16 00:06:42 -0600
+Processing by CategoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kxz3bpyBHuZ8jfC6JbwPVMShj30QqGSy0G3Kg58O4Ic=", "category"=>{"name"=>"Week 5"}, "commit"=>"¡Crea la categoría!"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "categories" ("created_at", "name", "slug", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Tue, 16 Jun 2015 02:06:42 EDT -04:00], ["name", "Week 5"], ["slug", "week-5"], ["updated_at", Tue, 16 Jun 2015 02:06:42 EDT -04:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 9ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-06-16 00:06:42 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered shared/_content_title.html.erb (0.1ms)
+  Rendered posts/index.html.erb within layouts/application (0.8ms)
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (4.9ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 19ms (Views: 16.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/categories/new" for 127.0.0.1 at 2015-06-16 00:06:46 -0600
+Processing by CategoriesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered shared/_content_title.html.erb (0.1ms)
+  Rendered shared/_errors.html.erb (0.1ms)
+  Rendered categories/new.html.erb within layouts/application (4.8ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navigation.html.erb (24.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 58ms (Views: 47.9ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/categories" for 127.0.0.1 at 2015-06-16 00:06:52 -0600
+Processing by CategoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kxz3bpyBHuZ8jfC6JbwPVMShj30QqGSy0G3Kg58O4Ic=", "category"=>{"name"=>"Week 6"}, "commit"=>"¡Crea la categoría!"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "categories" ("created_at", "name", "slug", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Tue, 16 Jun 2015 02:06:52 EDT -04:00], ["name", "Week 6"], ["slug", "week-6"], ["updated_at", Tue, 16 Jun 2015 02:06:52 EDT -04:00]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 6ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-06-16 00:06:52 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered shared/_content_title.html.erb (0.0ms)
+  Rendered posts/index.html.erb within layouts/application (0.7ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (3.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 14ms (Views: 12.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/categories/new" for 127.0.0.1 at 2015-06-16 00:06:56 -0600
+Processing by CategoriesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_content_title.html.erb (0.1ms)
+  Rendered shared/_errors.html.erb (0.1ms)
+  Rendered categories/new.html.erb within layouts/application (4.7ms)
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_navigation.html.erb (6.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 65ms (Views: 62.7ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/categories" for 127.0.0.1 at 2015-06-16 00:07:02 -0600
+Processing by CategoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kxz3bpyBHuZ8jfC6JbwPVMShj30QqGSy0G3Kg58O4Ic=", "category"=>{"name"=>"Week 7"}, "commit"=>"¡Crea la categoría!"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "categories" ("created_at", "name", "slug", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Tue, 16 Jun 2015 02:07:02 EDT -04:00], ["name", "Week 7"], ["slug", "week-7"], ["updated_at", Tue, 16 Jun 2015 02:07:02 EDT -04:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 6ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-06-16 00:07:02 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered shared/_content_title.html.erb (0.0ms)
+  Rendered posts/index.html.erb within layouts/application (0.7ms)
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (55.7ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 76ms (Views: 72.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/categories/new" for 127.0.0.1 at 2015-06-16 00:07:06 -0600
+Processing by CategoriesController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered shared/_content_title.html.erb (0.3ms)
+  Rendered shared/_errors.html.erb (0.1ms)
+  Rendered categories/new.html.erb within layouts/application (6.5ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navigation.html.erb (4.1ms)
+  Rendered layouts/_messages.html.erb (12.5ms)
+Completed 200 OK in 67ms (Views: 62.7ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/categories" for 127.0.0.1 at 2015-06-16 00:07:12 -0600
+Processing by CategoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kxz3bpyBHuZ8jfC6JbwPVMShj30QqGSy0G3Kg58O4Ic=", "category"=>{"name"=>"Week 8"}, "commit"=>"¡Crea la categoría!"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "categories" ("created_at", "name", "slug", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Tue, 16 Jun 2015 02:07:12 EDT -04:00], ["name", "Week 8"], ["slug", "week-8"], ["updated_at", Tue, 16 Jun 2015 02:07:12 EDT -04:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 7ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-06-16 00:07:12 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered shared/_content_title.html.erb (0.1ms)
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (6.5ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 26ms (Views: 22.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/categories/new" for 127.0.0.1 at 2015-06-16 00:07:19 -0600
+Processing by CategoriesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_content_title.html.erb (0.1ms)
+  Rendered shared/_errors.html.erb (0.2ms)
+  Rendered categories/new.html.erb within layouts/application (6.6ms)
+  [1m[35mCategory Load (0.4ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_navigation.html.erb (6.8ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 32ms (Views: 29.1ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/categories" for 127.0.0.1 at 2015-06-16 00:07:25 -0600
+Processing by CategoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kxz3bpyBHuZ8jfC6JbwPVMShj30QqGSy0G3Kg58O4Ic=", "category"=>{"name"=>"Week 9"}, "commit"=>"¡Crea la categoría!"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "categories" ("created_at", "name", "slug", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Tue, 16 Jun 2015 02:07:25 EDT -04:00], ["name", "Week 9"], ["slug", "week-9"], ["updated_at", Tue, 16 Jun 2015 02:07:25 EDT -04:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 6ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-06-16 00:07:25 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered shared/_content_title.html.erb (0.1ms)
+  Rendered posts/index.html.erb within layouts/application (0.9ms)
+  [1m[35mCategory Load (0.4ms)[0m  SELECT "categories".* FROM "categories"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (4.5ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/categories/new" for 127.0.0.1 at 2015-06-16 00:07:29 -0600
+Processing by CategoriesController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered shared/_content_title.html.erb (0.1ms)
+  Rendered shared/_errors.html.erb (0.3ms)
+  Rendered categories/new.html.erb within layouts/application (7.8ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navigation.html.erb (3.7ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+Completed 200 OK in 30ms (Views: 27.7ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/categories" for 127.0.0.1 at 2015-06-16 00:07:43 -0600
+Processing by CategoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kxz3bpyBHuZ8jfC6JbwPVMShj30QqGSy0G3Kg58O4Ic=", "category"=>{"name"=>"Week 10"}, "commit"=>"¡Crea la categoría!"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "categories" ("created_at", "name", "slug", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Tue, 16 Jun 2015 02:07:43 EDT -04:00], ["name", "Week 10"], ["slug", "week-10"], ["updated_at", Tue, 16 Jun 2015 02:07:43 EDT -04:00]]
+  [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 11ms (ActiveRecord: 3.3ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-06-16 00:07:43 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (1.0ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered shared/_content_title.html.erb (0.1ms)
+  Rendered posts/index.html.erb within layouts/application (1.8ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (4.3ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 24ms (Views: 19.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/categories/new" for 127.0.0.1 at 2015-06-16 00:07:47 -0600
+Processing by CategoriesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_content_title.html.erb (0.2ms)
+  Rendered shared/_errors.html.erb (0.1ms)
+  Rendered categories/new.html.erb within layouts/application (9.2ms)
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_navigation.html.erb (3.2ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 79ms (Views: 74.4ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/categories" for 127.0.0.1 at 2015-06-16 00:07:52 -0600
+Processing by CategoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kxz3bpyBHuZ8jfC6JbwPVMShj30QqGSy0G3Kg58O4Ic=", "category"=>{"name"=>"Week 11"}, "commit"=>"¡Crea la categoría!"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "categories" ("created_at", "name", "slug", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Tue, 16 Jun 2015 02:07:52 EDT -04:00], ["name", "Week 11"], ["slug", "week-11"], ["updated_at", Tue, 16 Jun 2015 02:07:52 EDT -04:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 8ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-06-16 00:07:52 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered shared/_content_title.html.erb (0.0ms)
+  Rendered posts/index.html.erb within layouts/application (0.6ms)
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (3.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 13.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/categories/new" for 127.0.0.1 at 2015-06-16 00:07:57 -0600
+Processing by CategoriesController#new as HTML
+  [1m[35mUser Load (1.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered shared/_content_title.html.erb (0.5ms)
+  Rendered shared/_errors.html.erb (0.4ms)
+  Rendered categories/new.html.erb within layouts/application (21.6ms)
+  [1m[36mCategory Load (0.6ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navigation.html.erb (7.4ms)
+  Rendered layouts/_messages.html.erb (0.5ms)
+Completed 200 OK in 247ms (Views: 191.2ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/categories" for 127.0.0.1 at 2015-06-16 00:08:13 -0600
+Processing by CategoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kxz3bpyBHuZ8jfC6JbwPVMShj30QqGSy0G3Kg58O4Ic=", "category"=>{"name"=>"Week 12"}, "commit"=>"¡Crea la categoría!"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "categories" ("created_at", "name", "slug", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Tue, 16 Jun 2015 02:08:13 EDT -04:00], ["name", "Week 12"], ["slug", "week-12"], ["updated_at", Tue, 16 Jun 2015 02:08:13 EDT -04:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 14ms (ActiveRecord: 3.5ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-06-16 00:08:13 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.9ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered shared/_content_title.html.erb (0.1ms)
+  Rendered posts/index.html.erb within layouts/application (1.3ms)
+  [1m[36mCategory Load (0.5ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (8.8ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+Completed 200 OK in 28ms (Views: 22.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/categories/new" for 127.0.0.1 at 2015-06-16 00:10:11 -0600
+Processing by CategoriesController#new as HTML
+  [1m[36mUser Load (22.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_content_title.html.erb (0.9ms)
+  Rendered shared/_errors.html.erb (0.4ms)
+  Rendered categories/new.html.erb within layouts/application (16.1ms)
+  [1m[35mCategory Load (3.4ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_navigation.html.erb (14.4ms)
+  Rendered layouts/_messages.html.erb (0.9ms)
+Completed 200 OK in 112ms (Views: 58.4ms | ActiveRecord: 26.0ms)
+
+
+Started POST "/categories" for 127.0.0.1 at 2015-06-16 00:10:18 -0600
+Processing by CategoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kxz3bpyBHuZ8jfC6JbwPVMShj30QqGSy0G3Kg58O4Ic=", "category"=>{"name"=>"Week 13"}, "commit"=>"¡Crea la categoría!"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.6ms)[0m  begin transaction
+  [1m[36mSQL (3.5ms)[0m  [1mINSERT INTO "categories" ("created_at", "name", "slug", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Tue, 16 Jun 2015 02:10:18 EDT -04:00], ["name", "Week 13"], ["slug", "week-13"], ["updated_at", Tue, 16 Jun 2015 02:10:18 EDT -04:00]]
+  [1m[35m (1.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 21ms (ActiveRecord: 5.6ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-06-16 00:10:18 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered shared/_content_title.html.erb (0.4ms)
+  Rendered posts/index.html.erb within layouts/application (2.8ms)
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (5.9ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 215ms (Views: 211.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-16 00:10:52 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (1.6ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered shared/_content_title.html.erb (0.6ms)
+  Rendered posts/index.html.erb within layouts/application (5.8ms)
+  [1m[36mCategory Load (5.1ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (48.4ms)
+  Rendered layouts/_messages.html.erb (0.5ms)
+Completed 200 OK in 180ms (Views: 103.2ms | ActiveRecord: 7.4ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-06-16 00:10:54 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered shared/_content_title.html.erb (0.1ms)
+  Rendered posts/index.html.erb within layouts/application (1.4ms)
+  [1m[35mCategory Load (0.6ms)[0m  SELECT "categories".* FROM "categories"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (5.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 24ms (Views: 21.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/categories/week-1" for 127.0.0.1 at 2015-06-16 00:10:57 -0600
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"week-1"}
+  [1m[35mCategory Load (5.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."slug" = 'week-1' LIMIT 1
+  Rendered shared/_content_title.html.erb (0.2ms)
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts" INNER JOIN "post_categories" ON "posts"."id" = "post_categories"."post_id" WHERE "post_categories"."category_id" = ?[0m  [["category_id", 1]]
+  Rendered categories/show.html.erb within layouts/application (78.8ms)
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (5.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 130ms (Views: 104.5ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/categories/week-1" for 127.0.0.1 at 2015-06-16 00:12:13 -0600
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"week-1"}
+  [1m[35mCategory Load (1.8ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."slug" = 'week-1' LIMIT 1
+  Rendered shared/_content_title.html.erb (0.3ms)
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts" INNER JOIN "post_categories" ON "posts"."id" = "post_categories"."post_id" WHERE "post_categories"."category_id" = ?[0m  [["category_id", 1]]
+  Rendered categories/show.html.erb within layouts/application (16.7ms)
+  [1m[35mCategory Load (0.7ms)[0m  SELECT "categories".* FROM "categories"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (8.8ms)
+  Rendered layouts/_messages.html.erb (0.5ms)
+Completed 200 OK in 71ms (Views: 53.9ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-06-16 00:12:17 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered shared/_content_title.html.erb (0.1ms)
+  Rendered posts/index.html.erb within layouts/application (1.4ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (5.6ms)
+  Rendered layouts/_messages.html.erb (1.7ms)
+Completed 200 OK in 77ms (Views: 71.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-06-16 00:12:18 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered shared/_content_title.html.erb (0.1ms)
+  Rendered posts/index.html.erb within layouts/application (1.1ms)
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (129.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 144ms (Views: 141.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/categories/week-4" for 127.0.0.1 at 2015-06-16 00:12:22 -0600
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"week-4"}
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."slug" = 'week-4' LIMIT 1
+  Rendered shared/_content_title.html.erb (0.1ms)
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" INNER JOIN "post_categories" ON "posts"."id" = "post_categories"."post_id" WHERE "post_categories"."category_id" = ?[0m  [["category_id", 4]]
+  Rendered categories/show.html.erb within layouts/application (6.6ms)
+  [1m[35mCategory Load (0.4ms)[0m  SELECT "categories".* FROM "categories"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (8.8ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 37ms (Views: 34.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2015-06-16 00:12:26 -0600
+Processing by PostsController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered shared/_content_title.html.erb (0.1ms)
+  Rendered shared/_errors.html.erb (0.1ms)
+  [1m[36mCategory Load (0.9ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered posts/_form.html.erb (56.5ms)
+  Rendered posts/new.html.erb within layouts/application (59.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 80ms (Views: 76.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-16 00:12:33 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (1.0ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered shared/_content_title.html.erb (0.1ms)
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (7.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 43ms (Views: 39.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2015-06-16 00:12:35 -0600
+Processing by PostsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered shared/_content_title.html.erb (0.1ms)
+  Rendered shared/_errors.html.erb (0.1ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered posts/_form.html.erb (31.9ms)
+  Rendered posts/new.html.erb within layouts/application (35.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_navigation.html.erb (4.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 58ms (Views: 55.0ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2015-06-16 00:15:45 -0600
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kxz3bpyBHuZ8jfC6JbwPVMShj30QqGSy0G3Kg58O4Ic=", "post"=>{"title"=>"Css Position Absolute", "url"=>"https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/", "description"=>"This is a great article on position absolute. Check it out.", "category_ids"=>["1", ""]}, "commit"=>"Create Post"}
+  [1m[36mUser Load (7.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCategory Load (2.7ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mPost Exists (0.4ms)[0m  SELECT 1 AS one FROM "posts" WHERE "posts"."url" = 'https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/' LIMIT 1
+  [1m[36mSQL (3.4ms)[0m  [1mINSERT INTO "posts" ("created_at", "description", "slug", "title", "updated_at", "url", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Tue, 16 Jun 2015 02:15:45 EDT -04:00], ["description", "This is a great article on position absolute. Check it out."], ["slug", "css-position-absolute"], ["title", "Css Position Absolute"], ["updated_at", Tue, 16 Jun 2015 02:15:45 EDT -04:00], ["url", "https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/"], ["user_id", 2]]
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "post_categories" ("category_id", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["category_id", 1], ["created_at", Tue, 16 Jun 2015 02:15:45 EDT -04:00], ["post_id", 1], ["updated_at", Tue, 16 Jun 2015 02:15:45 EDT -04:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 170ms (ActiveRecord: 16.7ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-06-16 00:15:45 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36m (4.0ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'[0m  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'  [["voteable_id", 1], ["voteable_type", "Post"]]
+  Rendered shared/_content_title.html.erb (0.3ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'[0m  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[35mCategory Load (0.4ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "post_categories" ON "categories"."id" = "post_categories"."category_id" WHERE "post_categories"."post_id" = ?  [["post_id", 1]]
+  Rendered categories/_category.html.erb (2.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 1]]
+  Rendered posts/_post.html.erb (43.2ms)
+  Rendered posts/index.html.erb within layouts/application (48.6ms)
+  [1m[36mCategory Load (0.5ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navigation.html.erb (5.9ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+Completed 200 OK in 105ms (Views: 81.6ms | ActiveRecord: 7.4ms)
+
+
+Started GET "/posts/css-position-absolute" for 127.0.0.1 at 2015-06-16 00:16:02 -0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"css-position-absolute"}
+  [1m[35mPost Load (1.0ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."slug" = 'css-position-absolute' LIMIT 1
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "post_categories" ON "categories"."id" = "post_categories"."category_id" WHERE "post_categories"."post_id" = ?  [["post_id", 1]]
+  Rendered categories/_category.html.erb (1.7ms)
+  Rendered shared/_content_title.html.erb (0.2ms)
+  Rendered shared/_errors.html.erb (0.2ms)
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  Rendered posts/show.html.erb within layouts/application (77.2ms)
+  [1m[35mCategory Load (0.4ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_navigation.html.erb (6.3ms)
+  Rendered layouts/_messages.html.erb (0.5ms)
+Completed 200 OK in 174ms (Views: 113.7ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/posts/css-position-absolute" for 127.0.0.1 at 2015-06-16 00:16:11 -0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"css-position-absolute"}
+  [1m[36mPost Load (3.6ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."slug" = 'css-position-absolute' LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "post_categories" ON "categories"."id" = "post_categories"."category_id" WHERE "post_categories"."post_id" = ?[0m  [["post_id", 1]]
+  Rendered categories/_category.html.erb (0.5ms)
+  Rendered shared/_content_title.html.erb (0.1ms)
+  Rendered shared/_errors.html.erb (0.4ms)
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 1]]
+  Rendered posts/show.html.erb within layouts/application (16.3ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navigation.html.erb (6.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 50ms (Views: 42.0ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/users/rickcid" for 127.0.0.1 at 2015-06-16 00:16:46 -0600
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"rickcid"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."slug" = 'rickcid' LIMIT 1
+  Rendered shared/_content_title.html.erb (0.5ms)
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."user_id" = ?  [["user_id", 2]]
+  [1m[36mPost Load (0.9ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'[0m  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "post_categories" ON "categories"."id" = "post_categories"."category_id" WHERE "post_categories"."post_id" = ?[0m  [["post_id", 1]]
+  Rendered categories/_category.html.erb (0.8ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  Rendered posts/_post.html.erb (54.1ms)
+  Rendered users/show.html.erb within layouts/application (85.9ms)
+  [1m[35mCategory Load (0.5ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_navigation.html.erb (6.2ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+Completed 200 OK in 137ms (Views: 112.9ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/posts/css-position-absolute" for 127.0.0.1 at 2015-06-16 00:17:02 -0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"css-position-absolute"}
+  [1m[36mPost Load (0.6ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."slug" = 'css-position-absolute' LIMIT 1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "post_categories" ON "categories"."id" = "post_categories"."category_id" WHERE "post_categories"."post_id" = ?[0m  [["post_id", 1]]
+  Rendered categories/_category.html.erb (0.3ms)
+  Rendered shared/_content_title.html.erb (0.1ms)
+  Rendered shared/_errors.html.erb (0.3ms)
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 1]]
+  Rendered posts/show.html.erb within layouts/application (24.6ms)
+  [1m[36mCategory Load (1.0ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navigation.html.erb (9.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 83ms (Views: 50.3ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/posts/css-position-absolute/comments" for 127.0.0.1 at 2015-06-16 00:17:32 -0600
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kxz3bpyBHuZ8jfC6JbwPVMShj30QqGSy0G3Kg58O4Ic=", "comment"=>{"body"=>"It was a very well explained article."}, "commit"=>"Add Comment", "post_id"=>"css-position-absolute"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mPost Load (0.6ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."slug" = 'css-position-absolute' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (1.8ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["body", "It was a very well explained article."], ["created_at", Tue, 16 Jun 2015 02:17:32 EDT -04:00], ["post_id", 1], ["updated_at", Tue, 16 Jun 2015 02:17:32 EDT -04:00], ["user_id", 2]]
+  [1m[35m (1.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/posts/css-position-absolute
+Completed 302 Found in 46ms (ActiveRecord: 4.4ms)
+
+
+Started GET "/posts/css-position-absolute" for 127.0.0.1 at 2015-06-16 00:17:32 -0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"css-position-absolute"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."slug" = 'css-position-absolute' LIMIT 1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "post_categories" ON "categories"."id" = "post_categories"."category_id" WHERE "post_categories"."post_id" = ?[0m  [["post_id", 1]]
+  Rendered categories/_category.html.erb (0.6ms)
+  Rendered shared/_content_title.html.erb (0.3ms)
+  Rendered shared/_errors.html.erb (0.2ms)
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 1]]
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? ORDER BY "posts"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'  [["voteable_id", 1], ["voteable_type", "Comment"]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'[0m  [["voteable_id", 1], ["voteable_type", "Comment"]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered comments/_comment.html.erb (12.9ms)
+  Rendered posts/show.html.erb within layouts/application (42.8ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navigation.html.erb (4.4ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+Completed 200 OK in 69ms (Views: 64.9ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-16 00:17:56 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (1.0ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36m (2.4ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'[0m  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[35m (2.7ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'  [["voteable_id", 1], ["voteable_type", "Post"]]
+  Rendered shared/_content_title.html.erb (0.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'[0m  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "post_categories" ON "categories"."id" = "post_categories"."category_id" WHERE "post_categories"."post_id" = ?  [["post_id", 1]]
+  Rendered categories/_category.html.erb (0.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 1]]
+  Rendered posts/_post.html.erb (35.1ms)
+  Rendered posts/index.html.erb within layouts/application (41.2ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navigation.html.erb (11.3ms)
+  Rendered layouts/_messages.html.erb (0.5ms)
+Completed 200 OK in 227ms (Views: 91.9ms | ActiveRecord: 7.8ms)
+
+
+Started GET "/posts/css-position-absolute" for 127.0.0.1 at 2015-06-16 00:18:04 -0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"css-position-absolute"}
+  [1m[35mPost Load (3.4ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."slug" = 'css-position-absolute' LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "post_categories" ON "categories"."id" = "post_categories"."category_id" WHERE "post_categories"."post_id" = ?  [["post_id", 1]]
+  Rendered categories/_category.html.erb (0.4ms)
+  Rendered shared/_content_title.html.erb (0.2ms)
+  Rendered shared/_errors.html.erb (0.3ms)
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? ORDER BY "posts"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'[0m  [["voteable_id", 1], ["voteable_type", "Comment"]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'  [["voteable_id", 1], ["voteable_type", "Comment"]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered comments/_comment.html.erb (33.8ms)
+  Rendered posts/show.html.erb within layouts/application (59.9ms)
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_navigation.html.erb (5.3ms)
+  Rendered layouts/_messages.html.erb (0.5ms)
+Completed 200 OK in 89ms (Views: 80.2ms | ActiveRecord: 5.1ms)
+
+
+Started POST "/posts/css-position-absolute/comments/1/vote?vote=true" for 127.0.0.1 at 2015-06-16 00:18:27 -0600
+Processing by CommentsController#vote as JS
+  Parameters: {"vote"=>"true", "post_id"=>"css-position-absolute", "id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mVote Exists (0.2ms)[0m  SELECT 1 AS one FROM "votes" WHERE ("votes"."user_id" = 2 AND "votes"."voteable_id" = 1 AND "votes"."voteable_type" = 'Comment') LIMIT 1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "votes" ("created_at", "updated_at", "user_id", "vote", "voteable_id", "voteable_type") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Tue, 16 Jun 2015 02:18:27 EDT -04:00], ["updated_at", Tue, 16 Jun 2015 02:18:27 EDT -04:00], ["user_id", 2], ["vote", true], ["voteable_id", 1], ["voteable_type", "Comment"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36mVote Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "votes" WHERE ("votes"."user_id" = 2 AND "votes"."id" != 1 AND "votes"."voteable_id" = 1 AND "votes"."voteable_type" = 'Comment') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'  [["voteable_id", 1], ["voteable_type", "Comment"]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'[0m  [["voteable_id", 1], ["voteable_type", "Comment"]]
+  Rendered comments/vote.js.erb (6.4ms)
+Completed 200 OK in 69ms (Views: 9.8ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-16 00:18:31 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'[0m  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'  [["voteable_id", 1], ["voteable_type", "Post"]]
+  Rendered shared/_content_title.html.erb (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'[0m  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "post_categories" ON "categories"."id" = "post_categories"."category_id" WHERE "post_categories"."post_id" = ?  [["post_id", 1]]
+  Rendered categories/_category.html.erb (0.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 1]]
+  Rendered posts/_post.html.erb (17.9ms)
+  Rendered posts/index.html.erb within layouts/application (21.6ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navigation.html.erb (5.7ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 68ms (Views: 60.1ms | ActiveRecord: 2.1ms)
+
+
+Started POST "/posts/css-position-absolute/vote?vote=true" for 127.0.0.1 at 2015-06-16 00:18:34 -0600
+Processing by PostsController#vote as JS
+  Parameters: {"vote"=>"true", "id"=>"css-position-absolute"}
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."slug" = 'css-position-absolute' LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mVote Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "votes" WHERE ("votes"."user_id" = 2 AND "votes"."voteable_id" = 1 AND "votes"."voteable_type" = 'Post') LIMIT 1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "votes" ("created_at", "updated_at", "user_id", "vote", "voteable_id", "voteable_type") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Tue, 16 Jun 2015 02:18:34 EDT -04:00], ["updated_at", Tue, 16 Jun 2015 02:18:34 EDT -04:00], ["user_id", 2], ["vote", true], ["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35mVote Exists (0.3ms)[0m  SELECT 1 AS one FROM "votes" WHERE ("votes"."user_id" = 2 AND "votes"."id" != 2 AND "votes"."voteable_id" = 1 AND "votes"."voteable_type" = 'Post') LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'[0m  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'  [["voteable_id", 1], ["voteable_type", "Post"]]
+  Rendered posts/vote.js.erb (5.5ms)
+Completed 200 OK in 17ms (Views: 7.6ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-16 00:22:26 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (8.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35m (1.1ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'[0m  [["voteable_id", 1], ["voteable_type", "Post"]]
+  Rendered shared/_content_title.html.erb (0.7ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'[0m  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "post_categories" ON "categories"."id" = "post_categories"."category_id" WHERE "post_categories"."post_id" = ?[0m  [["post_id", 1]]
+  Rendered categories/_category.html.erb (1.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  Rendered posts/_post.html.erb (28.0ms)
+  Rendered posts/index.html.erb within layouts/application (34.5ms)
+  [1m[35mCategory Load (0.4ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_navigation.html.erb (5.6ms)
+  Rendered layouts/_messages.html.erb (0.6ms)
+Completed 200 OK in 107ms (Views: 66.2ms | ActiveRecord: 11.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-16 00:22:29 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'[0m  [["voteable_id", 1], ["voteable_type", "Post"]]
+  Rendered shared/_content_title.html.erb (0.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'[0m  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "post_categories" ON "categories"."id" = "post_categories"."category_id" WHERE "post_categories"."post_id" = ?[0m  [["post_id", 1]]
+  Rendered categories/_category.html.erb (0.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  Rendered posts/_post.html.erb (11.0ms)
+  Rendered posts/index.html.erb within layouts/application (13.8ms)
+  [1m[35mCategory Load (0.4ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_navigation.html.erb (5.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 39ms (Views: 31.8ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-16 00:22:30 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'[0m  [["voteable_id", 1], ["voteable_type", "Post"]]
+  Rendered shared/_content_title.html.erb (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'[0m  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "post_categories" ON "categories"."id" = "post_categories"."category_id" WHERE "post_categories"."post_id" = ?[0m  [["post_id", 1]]
+  Rendered categories/_category.html.erb (0.3ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  Rendered posts/_post.html.erb (8.9ms)
+  Rendered posts/index.html.erb within layouts/application (10.7ms)
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_navigation.html.erb (3.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 36ms (Views: 27.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-16 00:22:31 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'[0m  [["voteable_id", 1], ["voteable_type", "Post"]]
+  Rendered shared/_content_title.html.erb (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'[0m  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "post_categories" ON "categories"."id" = "post_categories"."category_id" WHERE "post_categories"."post_id" = ?[0m  [["post_id", 1]]
+  Rendered categories/_category.html.erb (0.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  Rendered posts/_post.html.erb (9.2ms)
+  Rendered posts/index.html.erb within layouts/application (10.7ms)
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_navigation.html.erb (3.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 28ms (Views: 23.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-06-16 00:22:42 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (1.7ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'[0m  [["voteable_id", 1], ["voteable_type", "Post"]]
+  Rendered shared/_content_title.html.erb (0.8ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'[0m  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "post_categories" ON "categories"."id" = "post_categories"."category_id" WHERE "post_categories"."post_id" = ?[0m  [["post_id", 1]]
+  Rendered categories/_category.html.erb (5.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  Rendered posts/_post.html.erb (45.4ms)
+  Rendered posts/index.html.erb within layouts/application (53.2ms)
+  [1m[35mCategory Load (0.4ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_navigation.html.erb (203.2ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 341ms (Views: 291.4ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-16 00:22:44 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'[0m  [["voteable_id", 1], ["voteable_type", "Post"]]
+  Rendered shared/_content_title.html.erb (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'[0m  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "post_categories" ON "categories"."id" = "post_categories"."category_id" WHERE "post_categories"."post_id" = ?[0m  [["post_id", 1]]
+  Rendered categories/_category.html.erb (0.3ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  Rendered posts/_post.html.erb (10.5ms)
+  Rendered posts/index.html.erb within layouts/application (12.8ms)
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_navigation.html.erb (2.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 35ms (Views: 25.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/posts/css-position-absolute" for 127.0.0.1 at 2015-06-16 00:22:48 -0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"css-position-absolute"}
+  [1m[36mPost Load (3.0ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."slug" = 'css-position-absolute' LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "post_categories" ON "categories"."id" = "post_categories"."category_id" WHERE "post_categories"."post_id" = ?[0m  [["post_id", 1]]
+  Rendered categories/_category.html.erb (0.3ms)
+  Rendered shared/_content_title.html.erb (0.1ms)
+  Rendered shared/_errors.html.erb (0.1ms)
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 1]]
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? ORDER BY "posts"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'  [["voteable_id", 1], ["voteable_type", "Comment"]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'[0m  [["voteable_id", 1], ["voteable_type", "Comment"]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered comments/_comment.html.erb (19.3ms)
+  Rendered posts/show.html.erb within layouts/application (33.9ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navigation.html.erb (3.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 65ms (Views: 58.4ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/categories/week-2" for 127.0.0.1 at 2015-06-16 00:22:52 -0600
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"week-2"}
+  [1m[35mCategory Load (0.4ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."slug" = 'week-2' LIMIT 1
+  Rendered shared/_content_title.html.erb (0.1ms)
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" INNER JOIN "post_categories" ON "posts"."id" = "post_categories"."post_id" WHERE "post_categories"."category_id" = ?[0m  [["category_id", 2]]
+  Rendered categories/show.html.erb within layouts/application (4.5ms)
+  [1m[35mCategory Load (0.8ms)[0m  SELECT "categories".* FROM "categories"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (6.8ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+Completed 200 OK in 29ms (Views: 24.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/categories/week-2" for 127.0.0.1 at 2015-06-16 00:22:55 -0600
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"week-2"}
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."slug" = 'week-2' LIMIT 1
+  Rendered shared/_content_title.html.erb (0.0ms)
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts" INNER JOIN "post_categories" ON "posts"."id" = "post_categories"."post_id" WHERE "post_categories"."category_id" = ?[0m  [["category_id", 2]]
+  Rendered categories/show.html.erb within layouts/application (2.6ms)
+  [1m[35mCategory Load (0.4ms)[0m  SELECT "categories".* FROM "categories"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (5.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 19.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/categories/week-1" for 127.0.0.1 at 2015-06-16 00:22:56 -0600
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"week-1"}
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."slug" = 'week-1' LIMIT 1
+  Rendered shared/_content_title.html.erb (0.1ms)
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" INNER JOIN "post_categories" ON "posts"."id" = "post_categories"."post_id" WHERE "post_categories"."category_id" = ?[0m  [["category_id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'[0m  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "post_categories" ON "categories"."id" = "post_categories"."category_id" WHERE "post_categories"."post_id" = ?[0m  [["post_id", 1]]
+  Rendered categories/_category.html.erb (0.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  Rendered posts/_post.html.erb (18.5ms)
+  Rendered categories/show.html.erb within layouts/application (25.1ms)
+  [1m[35mCategory Load (0.4ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_navigation.html.erb (3.5ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 50ms (Views: 46.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2015-06-16 00:23:35 -0600
+Processing by PostsController#new as HTML
+  [1m[36mUser Load (4.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_content_title.html.erb (0.5ms)
+  Rendered shared/_errors.html.erb (0.4ms)
+  [1m[35mCategory Load (0.9ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered posts/_form.html.erb (37.7ms)
+  Rendered posts/new.html.erb within layouts/application (45.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navigation.html.erb (5.9ms)
+  Rendered layouts/_messages.html.erb (0.5ms)
+Completed 200 OK in 106ms (Views: 78.8ms | ActiveRecord: 5.2ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2015-06-16 00:28:37 -0600
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kxz3bpyBHuZ8jfC6JbwPVMShj30QqGSy0G3Kg58O4Ic=", "post"=>{"title"=>"Example of html", "url"=>"http://rrcid.tumblr.com/post/88319519392/how-to-start-your-tdd", "description"=>"<p>For example, let’s say we are building a Todo application. We would first start with something as simple as the following feature spec.</p>\r\n<pre><code>require 'spec_helper'\r\n\r\nfeature 'User can manage their todos' do\r\n  scenario 'User sees todos' do\r\n    visit root_path\r\n    expect(page).to have_content(‘Welcome, here are your todos!’ )\r\n  end\r\nend\r\n</code></pre>\r\n<p>You would run your rspec test to give you your first error, which in this case would be a routing error because no root_path exists. The obvious next step would be to include a route path in your routes. Do this and run your test again.</p>\r\n<p>It is important to note that you should not step ahead of your testing, even when you know what your next code implementation should be. In this case, adding a controller. When you are doing test driven development, allow the test to guide you. In our example, it means that after you implement the route you will run your test again and you should receive a new error stating that you have an “uninitialized constant TodosController”.</p>\r\n\r\nFor example, let’s say we are building a Todo application. We would first start with something as simple as the following feature spec.\r\n\r\n    require 'spec_helper'\r\n\r\n    feature 'User can manage their todos' do\r\n      scenario 'User sees todos' do\r\n        visit root_path\r\n        expect(page).to have_content(‘Welcome, here are your todos!’ )\r\n      end\r\n    end\r\n\r\nYou would run your rspec test to give you your first error, which in this case would be a routing error because no root_path exists. The obvious next step would be to include a route path in your routes. Do this and run your test again.", "category_ids"=>["2", ""]}, "commit"=>"Create Post"}
+  [1m[35mUser Load (8.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (3.5ms)[0m  begin transaction
+  [1m[36mPost Exists (4.3ms)[0m  [1mSELECT 1 AS one FROM "posts" WHERE "posts"."url" = 'http://rrcid.tumblr.com/post/88319519392/how-to-start-your-tdd' LIMIT 1[0m
+  [1m[35mSQL (4.8ms)[0m  INSERT INTO "posts" ("created_at", "description", "slug", "title", "updated_at", "url", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Tue, 16 Jun 2015 02:28:37 EDT -04:00], ["description", "<p>For example, let’s say we are building a Todo application. We would first start with something as simple as the following feature spec.</p>\r\n<pre><code>require 'spec_helper'\r\n\r\nfeature 'User can manage their todos' do\r\n  scenario 'User sees todos' do\r\n    visit root_path\r\n    expect(page).to have_content(‘Welcome, here are your todos!’ )\r\n  end\r\nend\r\n</code></pre>\r\n<p>You would run your rspec test to give you your first error, which in this case would be a routing error because no root_path exists. The obvious next step would be to include a route path in your routes. Do this and run your test again.</p>\r\n<p>It is important to note that you should not step ahead of your testing, even when you know what your next code implementation should be. In this case, adding a controller. When you are doing test driven development, allow the test to guide you. In our example, it means that after you implement the route you will run your test again and you should receive a new error stating that you have an “uninitialized constant TodosController”.</p>\r\n\r\nFor example, let’s say we are building a Todo application. We would first start with something as simple as the following feature spec.\r\n\r\n    require 'spec_helper'\r\n\r\n    feature 'User can manage their todos' do\r\n      scenario 'User sees todos' do\r\n        visit root_path\r\n        expect(page).to have_content(‘Welcome, here are your todos!’ )\r\n      end\r\n    end\r\n\r\nYou would run your rspec test to give you your first error, which in this case would be a routing error because no root_path exists. The obvious next step would be to include a route path in your routes. Do this and run your test again."], ["slug", "example-of-html"], ["title", "Example of html"], ["updated_at", Tue, 16 Jun 2015 02:28:37 EDT -04:00], ["url", "http://rrcid.tumblr.com/post/88319519392/how-to-start-your-tdd"], ["user_id", 2]]
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "post_categories" ("category_id", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["category_id", 2], ["created_at", Tue, 16 Jun 2015 02:28:37 EDT -04:00], ["post_id", 2], ["updated_at", Tue, 16 Jun 2015 02:28:37 EDT -04:00]]
+  [1m[35m (1.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 99ms (ActiveRecord: 22.9ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-06-16 00:28:37 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'[0m  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'  [["voteable_id", 2], ["voteable_type", "Post"]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'[0m  [["voteable_id", 2], ["voteable_type", "Post"]]
+  Rendered shared/_content_title.html.erb (0.3ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'[0m  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "post_categories" ON "categories"."id" = "post_categories"."category_id" WHERE "post_categories"."post_id" = ?[0m  [["post_id", 1]]
+  Rendered categories/_category.html.erb (0.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  Rendered posts/_post.html.erb (16.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'  [["voteable_id", 2], ["voteable_type", "Post"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'[0m  [["voteable_id", 2], ["voteable_type", "Post"]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "post_categories" ON "categories"."id" = "post_categories"."category_id" WHERE "post_categories"."post_id" = ?  [["post_id", 2]]
+  Rendered categories/_category.html.erb (0.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 2]]
+  Rendered posts/_post.html.erb (10.7ms)
+  Rendered posts/index.html.erb within layouts/application (32.0ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navigation.html.erb (4.0ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+Completed 200 OK in 72ms (Views: 63.1ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/users/rickcid" for 127.0.0.1 at 2015-06-16 00:29:00 -0600
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"rickcid"}
+  [1m[35mUser Load (7.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."slug" = 'rickcid' LIMIT 1
+  Rendered shared/_content_title.html.erb (0.7ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."user_id" = ?  [["user_id", 2]]
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'[0m  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "post_categories" ON "categories"."id" = "post_categories"."category_id" WHERE "post_categories"."post_id" = ?[0m  [["post_id", 1]]
+  Rendered categories/_category.html.erb (1.2ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  Rendered posts/_post.html.erb (31.0ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'  [["voteable_id", 2], ["voteable_type", "Post"]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'[0m  [["voteable_id", 2], ["voteable_type", "Post"]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "post_categories" ON "categories"."id" = "post_categories"."category_id" WHERE "post_categories"."post_id" = ?  [["post_id", 2]]
+  Rendered categories/_category.html.erb (0.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 2]]
+  Rendered posts/_post.html.erb (16.3ms)
+  Rendered users/show.html.erb within layouts/application (70.7ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navigation.html.erb (4.2ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+Completed 200 OK in 280ms (Views: 225.1ms | ActiveRecord: 10.8ms)
+
+
+Started GET "/users/rickcid/edit" for 127.0.0.1 at 2015-06-16 00:29:18 -0600
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"rickcid"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."slug" = 'rickcid' LIMIT 1
+  [1m[36mUser Load (2.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_content_title.html.erb (0.1ms)
+  Rendered shared/_errors.html.erb (0.1ms)
+  Rendered users/_form.html.erb (14.0ms)
+  Rendered users/edit.html.erb within layouts/application (61.5ms)
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_navigation.html.erb (3.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 112ms (Views: 96.8ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/users/rickcid" for 127.0.0.1 at 2015-06-16 00:29:22 -0600
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"rickcid"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."slug" = 'rickcid' LIMIT 1[0m
+  Rendered shared/_content_title.html.erb (0.1ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "posts" WHERE "posts"."user_id" = ?  [["user_id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?  [["user_id", 2]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'[0m  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "post_categories" ON "categories"."id" = "post_categories"."category_id" WHERE "post_categories"."post_id" = ?  [["post_id", 1]]
+  Rendered categories/_category.html.erb (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 1]]
+  Rendered posts/_post.html.erb (13.8ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'[0m  [["voteable_id", 2], ["voteable_type", "Post"]]
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'  [["voteable_id", 2], ["voteable_type", "Post"]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "post_categories" ON "categories"."id" = "post_categories"."category_id" WHERE "post_categories"."post_id" = ?[0m  [["post_id", 2]]
+  Rendered categories/_category.html.erb (0.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 2]]
+  Rendered posts/_post.html.erb (14.3ms)
+  Rendered users/show.html.erb within layouts/application (36.2ms)
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_navigation.html.erb (5.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 67ms (Views: 59.5ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/users/rickcid?tab=comments" for 127.0.0.1 at 2015-06-16 00:29:24 -0600
+Processing by UsersController#show as HTML
+  Parameters: {"tab"=>"comments", "id"=>"rickcid"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."slug" = 'rickcid' LIMIT 1[0m
+  Rendered shared/_content_title.html.erb (0.1ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" WHERE "posts"."user_id" = ?  [["user_id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35mComment Load (0.5ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."user_id" = ?  [["user_id", 2]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? ORDER BY "posts"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'[0m  [["voteable_id", 1], ["voteable_type", "Comment"]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'  [["voteable_id", 1], ["voteable_type", "Comment"]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered comments/_comment.html.erb (20.4ms)
+  Rendered users/show.html.erb within layouts/application (29.7ms)
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_navigation.html.erb (2.9ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 53ms (Views: 48.5ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/users/rickcid" for 127.0.0.1 at 2015-06-16 00:29:26 -0600
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"rickcid"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."slug" = 'rickcid' LIMIT 1[0m
+  Rendered shared/_content_title.html.erb (0.1ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" WHERE "posts"."user_id" = ?  [["user_id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?  [["user_id", 2]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'[0m  [["voteable_id", 1], ["voteable_type", "Post"]]
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories" INNER JOIN "post_categories" ON "categories"."id" = "post_categories"."category_id" WHERE "post_categories"."post_id" = ?  [["post_id", 1]]
+  Rendered categories/_category.html.erb (0.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 1]]
+  Rendered posts/_post.html.erb (34.7ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 't'[0m  [["voteable_id", 2], ["voteable_type", "Post"]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = ? AND "votes"."voteable_type" = ? AND "votes"."vote" = 'f'  [["voteable_id", 2], ["voteable_type", "Post"]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" INNER JOIN "post_categories" ON "categories"."id" = "post_categories"."category_id" WHERE "post_categories"."post_id" = ?[0m  [["post_id", 2]]
+  Rendered categories/_category.html.erb (0.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 2]]
+  Rendered posts/_post.html.erb (9.7ms)
+  Rendered users/show.html.erb within layouts/application (56.6ms)
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_navigation.html.erb (3.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 77ms (Views: 70.5ms | ActiveRecord: 2.8ms)

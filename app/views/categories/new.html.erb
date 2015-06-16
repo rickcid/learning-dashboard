@@ -1,0 +1,12 @@
+<%= render 'shared/content_title', title: 'Crea Una Categoría' %>
+
+<div class='well'>
+	<%= form_for @category do |f| %>
+    <%= render 'shared/errors', obj: @category %>
+	  <div class='control-group'>
+		  <%= f.label :name, 'Nombra la categoría' %>
+		  <%= f.text_field :name %>
+	  </div>
+	  <%= f.submit "¡Crea la categoría!", class: 'btn btn-primary' %>
+	<% end %>
+</div>

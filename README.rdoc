@@ -1,0 +1,3 @@
+== A Learning Dashboard for Developers
+
+Application built with rails version 4
